@@ -5,10 +5,11 @@ export default function Hero() {
   return (
     <section className="relative pt-24 overflow-hidden">
       <div className="absolute inset-0">
+        {/* Non-blocking gradient overlay over the Spline scene */}
         <div className="absolute inset-0 bg-gradient-to-b from-emerald-50/80 via-white/70 to-white pointer-events-none" />
         <div className="h-[520px] w-full">
           <Spline
-            scene="https://prod.spline.design/4o1rTgS53c0uYcX9/scene.splinecode"
+            scene="https://prod.spline.design/Qe6dlWJktclXcUBS/scene.splinecode"
             style={{ width: '100%', height: '100%' }}
           />
         </div>
